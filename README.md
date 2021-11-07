@@ -6,20 +6,13 @@ Various optimization mini-projects.
 
 Consider the following Sudoku puzzle<sup>1</sup>:
 
-$$\begin{array}{||c|c|c||c|c|c||c|c|c||}
-\hline 8 & & & | & & & & | & & & \\
-\hline  & & 3 & | & 6 & & & | & & & \\
-\hline  & 7 & & | & & 9 & & | & 2 & & \\
-\hline - & - & - & + & - & - & - & + & - & - & - \\
-\hline  & 5 &  & | &  &  & 7 & | &  &  &  \\
-\hline  &  &  & | &  & 4 & 5 & | & 7 &  &  \\
-\hline  &  &  & | & 1 &  &  & | &  & 3 &  \\
-\hline - & - & - & + & - & - & - & + & - & - & - \\
-\hline  &  & 1 & | &  &  &  & | &  & 6 & 8 \\
-\hline  &  & 8 & | & 5 &  &  & | &  & 1 &  \\
-\hline  & 9 &  & | &  &  &  & | & 4 &  &  \\
-\hline
-\end{array}$$
+ <p align="center">
+  </p>
+<figure>
+  <p align="center">
+    <img src="https://github.com/bwalzer4/Optimization/blob/main/visuals/Sudoku.PNG?raw=True" />
+  </p>
+</figure>
 
 
 ## References and Notes
