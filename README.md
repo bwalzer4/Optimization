@@ -10,7 +10,7 @@ Consider the following Sudoku puzzle<sup>1</sup>:
   </p>
 <figure>
   <p align="center">
-    <img src="https://github.com/bwalzer4/Optimization/blob/main/visuals/Sudoku_1.PNG?raw=True" />
+    <img src="https://github.com/bwalzer4/Optimization/blob/main/Visuals/Sudoku_1.PNG?raw=True" />
   </p>
 </figure>
 
