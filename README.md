@@ -4,7 +4,7 @@ Various optimization mini-projects.
 
 ## Solving a Sudoku Puzzle using Optimization
 
-Consider the following Sudoku puzzle:
+Consider the following Sudoku puzzle<sup>1</sup>:
 
 $$\begin{array}{||c|c|c||c|c|c||c|c|c||}
 \hline 8 & & & | & & & & | & & & \\
@@ -20,3 +20,7 @@ $$\begin{array}{||c|c|c||c|c|c||c|c|c||}
 \hline  & 9 &  & | &  &  &  & | & 4 &  &  \\
 \hline
 \end{array}$$
+
+
+## References and Notes
+1. Sudoko puzzle found on https://www.extremesudoku.info/ 
