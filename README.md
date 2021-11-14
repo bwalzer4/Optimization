@@ -41,14 +41,21 @@ array([[9., 7., 6., 4., 8., 5., 1., 2., 3.],
 
 Given a random set of points, such as the ones below, how can we generate an ellipsoid with the smallest area? One solution is to formulate and solve a semidefinite optimization problem. Semidefinite programs are a convex optimization problems with variables that are positive semidefinite matrices. A positive semidefinite matrix is definied by having nonnegative eigenvalues. 
 
-$$ \begin{equation}\begin{array}{ll}
-\min _{A, b} & \log \operatorname{det}\left(a^{-1}\right) \\
-\text {s.t. } & {\left[\begin{array}{c}
-A v_{i}-b \\
-1
-\end{array}\right] \in L_{n+1}} \\
-& A \succeq 0
-\end{array}\end{equation} $$
+ <p align="center">
+  </p>
+<figure>
+  <p align="center">
+    <img src="https://github.com/bwalzer4/Optimization/blob/main/Visuals/random_points.png?raw=True" />
+  </p>
+</figure>
+
+ <p align="center">
+  </p>
+<figure>
+  <p align="center">
+    <img src="https://https://github.com/bwalzer4/Optimization/blob/main/Visuals/random_points.png?raw=True" />
+  </p>
+</figure>
 
 ## References and Notes
 1. Sudoko puzzle found on https://www.extremesudoku.info/ from 7 November 2021.
