@@ -23,7 +23,7 @@ How can we write a program or algorithm to solve the Sudoko puzzle? One solution
 The objective function in this optimization problem is arbitrary since we are just looking for any solution that satisfies the constraints and do not require a minimal or maximum value.
 
 
-'''python
+```python
 array([[9., 7., 6., 4., 8., 5., 1., 2., 3.],
        [3., 8., 4., 2., 1., 9., 5., 7., 6.],
        [1., 5., 2., 3., 7., 6., 8., 4., 9.],
@@ -33,7 +33,7 @@ array([[9., 7., 6., 4., 8., 5., 1., 2., 3.],
        [6., 3., 9., 1., 4., 7., 2., 5., 8.],
        [5., 2., 1., 8., 6., 3., 4., 9., 7.],
        [7., 4., 8., 5., 9., 2., 6., 3., 1.]])
-'''
+```
 
 ## References and Notes
 1. Sudoko puzzle found on https://www.extremesudoku.info/ from 7 November 2021.
