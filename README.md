@@ -37,6 +37,19 @@ array([[9., 7., 6., 4., 8., 5., 1., 2., 3.],
        [7., 4., 8., 5., 9., 2., 6., 3., 1.]])
 ```
 
+## Generating a 2-D Ellipsoid to Circumscribe a Set of Points
+
+Given a random set of points, such as the ones below, how can we generate an ellipsoid with the smallest area? One solution is to formulate and solve a semidefinite optimization problem. Semidefinite programs are a convex optimization problems with variables that are positive semidefinite matrices. A positive semidefinite matrix is definied by having nonnegative eigenvalues. 
+
+$$ \begin{equation}\begin{array}{ll}
+\min _{A, b} & \log \operatorname{det}\left(a^{-1}\right) \\
+\text {s.t. } & {\left[\begin{array}{c}
+A v_{i}-b \\
+1
+\end{array}\right] \in L_{n+1}} \\
+& A \succeq 0
+\end{array}\end{equation} $$
+
 ## References and Notes
 1. Sudoko puzzle found on https://www.extremesudoku.info/ from 7 November 2021.
 2. https://www.cvxpy.org/
