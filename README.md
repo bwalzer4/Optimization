@@ -20,7 +20,7 @@ How can we write a program or algorithm to solve the Sudoko puzzle? One solution
 2. In each 3 x 3 square a number may only appear once
 3. In each row and column a number may only appear once
 
-The objective function in this optimization problem is arbitrary since we are just looking for any solution that satisfies the constraints and do not require a minimal or maximum value. I formulated and solved the optimization problem using the Python Convex Optimization Package (CVXPY)<sup>2</sup>.
+The objective function in this optimization problem is arbitrary since we are just looking for any solution that satisfies the constraints and do not require a minimum or maximum value. I formulated and solved the optimization problem using the Python Convex Optimization Package (CVXPY).<sup>2</sup>
 
 The output below shows the solution to the Sudoko puzzle!
 
