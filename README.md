@@ -2,7 +2,7 @@
 Various optimization mini-projects.
 
 
-## Solving a Sudoku Puzzle using Optimization
+## Solving a Sudoku Puzzle
 
 Consider the following Sudoku puzzle<sup>1</sup>:
 
