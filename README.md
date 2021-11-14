@@ -59,7 +59,7 @@ The optimization problem can be formulated as follows:
   </p>
 </figure>
 
-The first set of constraints is predicated on the equation of the ellipsoid, and the second constraint indicates the matrix must be positive semidefinite. Solving for $A$ and $b$ allows us to derive the ellipsoid shape matrix and center. From there we can plot the ellipsoid over the original set of points.
+The first set of constraints is predicated on the equation of the ellipsoid, and the second constraint indicates the matrix must be positive semidefinite. Solving for <b>A</b> and <b>b</b> allows us to derive the ellipsoid shape matrix and center. From there we can plot the ellipsoid over the original set of points.
 
  <p align="center">
   </p>
