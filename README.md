@@ -53,7 +53,7 @@ Given a random set of points, such as the ones below, how can we generate an ell
   </p>
 <figure>
   <p align="center">
-    <img src="https://https://github.com/bwalzer4/Optimization/blob/main/Visuals/random_points.png?raw=True" />
+    <img src="https://github.com/bwalzer4/Optimization/blob/main/Visuals/ellipsoid.png?raw=True" />
   </p>
 </figure>
 
