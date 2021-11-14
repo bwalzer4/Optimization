@@ -41,7 +41,15 @@ array([[9., 7., 6., 4., 8., 5., 1., 2., 3.],
 
 Given a random set of points, such as the ones below, how can we generate an ellipsoid with the smallest area? One solution is to formulate and solve a semidefinite optimization problem. Semidefinite programs are a convex optimization problems with variables that are positive semidefinite matrices. A positive semidefinite matrix is definied by having nonnegative eigenvalues. 
 
-<img src="https://render.githubusercontent.com/render/math?math=\large \frac{x^2}{A^2}+\frac{y^2}{B^2} + \frac{z^2}{C^2} = 1">
+ <p align="center">
+  </p>
+<figure>
+  <p align="center">
+    <img src="https://github.com/bwalzer4/Optimization/blob/main/Visuals/random_points.png?raw=True" />
+  </p>
+</figure>
+
+The optimization problem can be formulated as follows:
 
  <p align="center">
   </p>
@@ -51,14 +59,7 @@ Given a random set of points, such as the ones below, how can we generate an ell
   </p>
 </figure>
 
-
- <p align="center">
-  </p>
-<figure>
-  <p align="center">
-    <img src="https://github.com/bwalzer4/Optimization/blob/main/Visuals/random_points.png?raw=True" />
-  </p>
-</figure>
+The first set of constraints is predicated on the equation of the ellipsoid, and the second constraint indicates the matrix must be positive semidefinite. Solving for $A$ and $b$ allows us to derive the ellipsoid shape matrix and center. From there we can plot the ellipsoid over the original set of points.
 
  <p align="center">
   </p>
