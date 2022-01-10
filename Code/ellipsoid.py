@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 n = 2
 m = 50
 
-# Randomly generate points normally distributed mean 10, and std dev 5
+# Randomly generate points normally distributed mean 20, and std dev 5
 
 points = np.random.normal(20, 5, size = (m, n))
 
